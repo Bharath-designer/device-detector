@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Device Detector</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <h2>Location</h2>
+      <button class="location-btn" onclick="getLocation()">
+        Get Location Details
+      </button>
+      <div class="location-details"></div>
+    </div>
+
+
+    <div class="container">
+      <h2>Device</h2>
+      <div>You are using a <b><span class="device-name"></span></b></div>
+      <div class="device-info"></div>
+    </div>
+
+    <div class="container">
+      <h2>Orientation</h2>
+      <div class="orientation-info">
+          <button onclick="fullScreen()">Enter Full Screen</button>
+          <button onclick="exitFullScreen()">Exit Full Screen</button>
+          <button onclick="port()">Enter Portrait</button>
+          <button onclick="land()">Enter Landscape</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Screen Resolution</h2>
+      <div class="resolution">Your screen resolution is <b></b></div>
+    </div>
+
+    <div class="container">
+      <h2>Vibrate</h2>
+      <button onclick="vibrate()">Vibrate Your Device</button>
+    </div>
+
+    <div class="container">
+      <h2>Width</h2>
+      <div class="w1">Window innerWidth = <span></span></div>
+      <div class="w2">Window outerWidth = <span></span></div>
+      <div class="w3">Screen Width = <span></span></div>
+      <div class="w4">Screen availWidth = <span></span></div>
+    </div>
+
+    <div class="container">
+      <h2>Height</h2>
+      <div class="h1">Window innerHeight = <span></span></div>
+      <div class="h2">Window outerHeight = <span></span></div>
+      <div class="h3">Screen Height = <span></span></div>
+      <div class="h4">Screen availHeight = <span></span></div>
+    </div>
+    <div class="error-element">cdc</div>
+
+  </body>
+</html>
