@@ -6,4 +6,4 @@ What can this website do?
 
 ## <p align="center">The Project is live [here](https://bharath-designer.github.io/device-detector/)</p>
 
-
+![](https://raw.githubusercontent.com/Bharath-designer/bharath-designer/main/assets/device-detector.png)
